@@ -1,0 +1,17 @@
+.overall-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 130px;
+}
+
+.usercontent{
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content{
+  display: flex;
+
+}
+  

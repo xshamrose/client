@@ -1,0 +1,7 @@
+.profile-content{
+    display: flex;
+    background-color: blueviolet;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+}

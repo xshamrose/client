@@ -1,0 +1,38 @@
+.second{
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 20px;
+    width: 375px;
+    color: white;
+}
+.text-center{
+    margin-top: 10px;
+}
+.submit-reg {
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+  }
+  
+  .submit-reg:hover {
+    background-color: rgba(46, 46, 46, 0.941);
+    color: white;
+  }
+  .tool{
+    font-size: 28px;
+    color: royalblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+  }

@@ -1,0 +1,96 @@
+.container_overall {
+  height: 800px;
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+}
+.container_top{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.login_img{
+  width: 70%;
+  max-width: 50%;
+  height: auto;
+  margin-left: 20px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding-top: 50px;
+  padding-left: 30px;
+  
+}
+.animation-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.word {
+  font-size: 70px;
+  font-family: "sans-serif";
+  font-weight: 700;
+  opacity: 0;
+  animation: fadeInLeft 2s ease-in-out forwards;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.word:nth-child(2) {
+  font-weight: 600;
+ 
+}
+
+.word:nth-child(3) {
+  animation-delay: 1s; 
+}
+
+.word:nth-child(4) {
+  animation-delay: 1.5s; 
+}
+
+.word-log {
+  opacity: 0;
+  animation: fadeInLeft 1s ease-in-out forwards;
+  animation-delay: 1s; 
+}
+
+.group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 80px;
+  gap: 40px;
+}
+.group button{
+  width: 200px;
+  border-radius: 10px;
+  height: 50px;
+  background-color: #579de4;
+  border: transparent;
+}
+.group button:hover{
+  background-color: black;
+  color: white;
+}
+
+
+
+  
+  
+  
+  
