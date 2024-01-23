@@ -1,0 +1,77 @@
+.total {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .total > div {
+    flex: 0 0 calc(25% - 10px);
+    margin: 15px;
+    height: 200px;
+    box-shadow: 5px 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    transition: transform 0.3s ease-in-out,height 0.3s ease-in-out; /* Add transition property for smooth scaling */
+  }
+  
+  .total > div:hover {
+    transform: scale(1.05); /* Scale the div on hover */
+    cursor: pointer;
+    height: 220px;
+    
+  }
+  
+  
+  .enquiry {
+    background-color: red;
+}
+  
+  
+  .register {
+    background-color: cornflowerblue;
+  }
+  
+  .admission {
+    background-color: rgb(34, 67, 10);
+  }
+  
+  .details {
+    background-color: #c8d9bf;
+  }
+  
+  .fee {
+    background-color: #480048;
+  }
+  
+  .certify {
+    background-color: rgb(143, 136, 6);
+  }
+  
+  .feedback {
+    background-color: rgba(4, 221, 4, 0.419);
+  }
+  
+  @media (max-width: 1000px) {
+    .total > div {
+      flex: 0 0 calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .total > div {
+      flex: 0 0 calc(100% - 20px);
+    }
+  }
+  
+  .icon {
+    width: 100px; /* Set the width of the icon */
+    height: 100px; /* Set the height of the icon */
+    margin-top: 10px;
+    margin-bottom: 10px;
+     /* Add some margin below the icon */
+  }
