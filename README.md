@@ -57,7 +57,7 @@ This project is a form builder application that allows administrators to create 
 - React
 - Node.js
 - Express
-- MongoDB (or your preferred database)
+- MySQL (or your preferred database)
 - Authentication (e.g., JWT)
 
 ## Contributing
